@@ -17,7 +17,7 @@
 
 
 resource "discord_member_roles" "aarkimos" {
-  server_id = data.discord_server.server.id
+  server_id = data.discord_server.serve.id
   user_id   = data.discord_member.aarkimos.id
   role {
     role_id = data.discord_role.sponsor.id
